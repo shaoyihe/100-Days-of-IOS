@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1666CD251C870708000E3185 /* PROJECT 2 - TAP COUNTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PROJECT 2 - TAP COUNTER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1666CD251C870708000E3185 /* PROJECT 2 - TAP OR HOLD COUNTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PROJECT 2 - TAP OR HOLD COUNTER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1666CD281C870708000E3185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1666CD2A1C870708000E3185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1666CD2D1C870708000E3185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		1666CD261C870708000E3185 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1666CD251C870708000E3185 /* PROJECT 2 - TAP COUNTER.app */,
+				1666CD251C870708000E3185 /* PROJECT 2 - TAP OR HOLD COUNTER.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1666CD241C870708000E3185 /* PROJECT 2 - TAP COUNTER */ = {
+		1666CD241C870708000E3185 /* PROJECT 2 - TAP OR HOLD COUNTER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1666CD371C870708000E3185 /* Build configuration list for PBXNativeTarget "PROJECT 2 - TAP COUNTER" */;
+			buildConfigurationList = 1666CD371C870708000E3185 /* Build configuration list for PBXNativeTarget "PROJECT 2 - TAP OR HOLD COUNTER" */;
 			buildPhases = (
 				1666CD211C870708000E3185 /* Sources */,
 				1666CD221C870708000E3185 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "PROJECT 2 - TAP COUNTER";
+			name = "PROJECT 2 - TAP OR HOLD COUNTER";
 			productName = "PROJECT 2 - TAP COUNTER";
-			productReference = 1666CD251C870708000E3185 /* PROJECT 2 - TAP COUNTER.app */;
+			productReference = 1666CD251C870708000E3185 /* PROJECT 2 - TAP OR HOLD COUNTER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1666CD201C870708000E3185 /* Build configuration list for PBXProject "PROJECT 2 - TAP COUNTER" */;
+			buildConfigurationList = 1666CD201C870708000E3185 /* Build configuration list for PBXProject "PROJECT 2 - TAP OR HOLD COUNTER" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1666CD241C870708000E3185 /* PROJECT 2 - TAP COUNTER */,
+				1666CD241C870708000E3185 /* PROJECT 2 - TAP OR HOLD COUNTER */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 				INFOPLIST_FILE = "PROJECT 2 - TAP COUNTER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.heshaoyi.PROJECT-2---TAP-COUNTER";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PROJECT 2 - TAP OR HOLD COUNTER";
 			};
 			name = Debug;
 		};
@@ -261,14 +261,14 @@
 				INFOPLIST_FILE = "PROJECT 2 - TAP COUNTER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.heshaoyi.PROJECT-2---TAP-COUNTER";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PROJECT 2 - TAP OR HOLD COUNTER";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1666CD201C870708000E3185 /* Build configuration list for PBXProject "PROJECT 2 - TAP COUNTER" */ = {
+		1666CD201C870708000E3185 /* Build configuration list for PBXProject "PROJECT 2 - TAP OR HOLD COUNTER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1666CD351C870708000E3185 /* Debug */,
@@ -277,13 +277,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1666CD371C870708000E3185 /* Build configuration list for PBXNativeTarget "PROJECT 2 - TAP COUNTER" */ = {
+		1666CD371C870708000E3185 /* Build configuration list for PBXNativeTarget "PROJECT 2 - TAP OR HOLD COUNTER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1666CD381C870708000E3185 /* Debug */,
 				1666CD391C870708000E3185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
