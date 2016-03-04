@@ -9,3 +9,8 @@ PROJECT 1 - TAP COUNTER
 PROJECT 2 - TAP OR HOLD COUNTER   
 2016.03.02   
 ![TAP OR HOLD COUNTER](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/PROJECT%202%20-%20TAP%20OR%20HOLD%20COUNTER/TAP%20OR%20HOLD%20COUNTER.gif?raw=true)
+
+PROJECT 3 - SWIFT IAD   
+2016.03.04   
+![TAP OR HOLD COUNTER](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/PROJECT%203%20-%20SWIFT%20IAD/SWIFT%20IAD.gif)
+
