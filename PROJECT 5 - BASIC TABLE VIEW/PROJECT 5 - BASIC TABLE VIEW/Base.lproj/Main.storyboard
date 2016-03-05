@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MovieViewController" customModule="PROJECT_5___BASIC_TABLE_VIEW" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZk-La-44O">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Movies" id="wBO-ey-YSE">
+                                        <barButtonItem key="leftBarButtonItem" title="Edit" id="rHY-Q5-MkO"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bts-uC-35x">
+                                <rect key="frame" x="0.0" y="44" width="600" height="512"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nZk-La-44O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LT9-Jf-HH9"/>
+                            <constraint firstItem="bts-uC-35x" firstAttribute="top" secondItem="nZk-La-44O" secondAttribute="bottom" id="Mgx-Ss-MKc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bts-uC-35x" secondAttribute="bottom" id="VnU-Bm-num"/>
+                            <constraint firstAttribute="trailing" secondItem="bts-uC-35x" secondAttribute="trailing" id="Yas-iJ-rfT"/>
+                            <constraint firstItem="nZk-La-44O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aOV-qH-T1h"/>
+                            <constraint firstItem="nZk-La-44O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="c5V-EU-EOe"/>
+                            <constraint firstItem="bts-uC-35x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ebk-rm-AiH"/>
+                            <constraint firstAttribute="trailing" secondItem="nZk-La-44O" secondAttribute="trailing" id="nOk-86-QFe"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="movieTableView" destination="bts-uC-35x" id="zlz-sg-BgZ"/>
+                        <outlet property="navBar" destination="nZk-La-44O" id="lNn-BD-n8G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="193"/>
+        </scene>
+    </scenes>
+</document>
