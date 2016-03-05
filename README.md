@@ -14,3 +14,6 @@ PROJECT 3 - SWIFT IAD
 2016.03.04   
 ![TAP OR HOLD COUNTER](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/PROJECT%203%20-%20SWIFT%20IAD/SWIFT%20IAD.gif)
 
+PROJECT 4 - TIP CALCULATOR   
+2016.03.05   
+![TIP CALCULATOR](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/PROJECT%203%20-%20SWIFT%20IAD/SWIFT%20IAD.gif)
