@@ -19,10 +19,18 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         movieTableView.delegate = self
         movieTableView.dataSource = self
         
-        let statusBarHeight = UIApplication.sharedApplication().statusBarFrame.height
-        navBar.topAnchor.constraintEqualToAnchor(view.topAnchor, constant: statusBarHeight + 100 + navBar.frame.height).active = true
-        navBar.setNeedsDisplay()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
+        let statusBarHeight = UIApplication.sharedApplication().statusBarFrame.height
+//        var newFrame = navBar.frame;
+//        newFrame.size  = CGSizeMake(newFrame.width, newFrame.height + statusBarHeight + 20)
+//        navBar.frame = newFrame
+//        navBar.backgroundColor = UIColor.greenColor()
+        
+        navBar.bottomAnchor.constraintEqualToAnchor(view.topAnchor, constant: statusBarHeight + navBar.frame.height).active = true
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
