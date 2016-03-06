@@ -12,8 +12,14 @@ class FirstViewController: UIViewController {
 
     @IBOutlet var textView: UITextView!
     
+    override func loadView() {
+        super.loadView()
+        automaticallyAdjustsScrollViewInsets = false
+    }
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
         textView.becomeFirstResponder()
     }
     

@@ -10,7 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    @IBOutlet var textView: UITextView!
+    @IBOutlet var secondTextView: UITextView!
     
     var text: String!{
         didSet{
@@ -18,9 +18,14 @@ class SecondViewController: UIViewController {
         }
     }
     
+    override func loadView() {
+        super.loadView()
+        automaticallyAdjustsScrollViewInsets = false
+    }
+    
     override func viewDidAppear(animated: Bool) {
-        textView.text = text
-        super.viewDidAppear(animated)
+       super.viewDidAppear(animated)
+       self.secondTextView.text = text
     }
     
     
