@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CDD0E11C8BCC7A00FEB376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDD0E01C8BCC7A00FEB376 /* AppDelegate.swift */; };
+		16CDD0E31C8BCC7A00FEB376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CDD0E21C8BCC7A00FEB376 /* ViewController.swift */; };
+		16CDD0E61C8BCC7A00FEB376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CDD0E41C8BCC7A00FEB376 /* Main.storyboard */; };
+		16CDD0E81C8BCC7A00FEB376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CDD0E71C8BCC7A00FEB376 /* Assets.xcassets */; };
+		16CDD0EB1C8BCC7A00FEB376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CDD0E91C8BCC7A00FEB376 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16CDD0DD1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PROJECT 6 - GETTING CURRENT DATE AND TIME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CDD0E01C8BCC7A00FEB376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16CDD0E21C8BCC7A00FEB376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16CDD0E51C8BCC7A00FEB376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16CDD0E71C8BCC7A00FEB376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CDD0EA1C8BCC7A00FEB376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16CDD0EC1C8BCC7A00FEB376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CDD0DA1C8BCC7A00FEB376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CDD0D41C8BCC7A00FEB376 = {
+			isa = PBXGroup;
+			children = (
+				16CDD0DF1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME */,
+				16CDD0DE1C8BCC7A00FEB376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16CDD0DE1C8BCC7A00FEB376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CDD0DD1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CDD0DF1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME */ = {
+			isa = PBXGroup;
+			children = (
+				16CDD0E01C8BCC7A00FEB376 /* AppDelegate.swift */,
+				16CDD0E21C8BCC7A00FEB376 /* ViewController.swift */,
+				16CDD0E41C8BCC7A00FEB376 /* Main.storyboard */,
+				16CDD0E71C8BCC7A00FEB376 /* Assets.xcassets */,
+				16CDD0E91C8BCC7A00FEB376 /* LaunchScreen.storyboard */,
+				16CDD0EC1C8BCC7A00FEB376 /* Info.plist */,
+			);
+			path = "PROJECT 6 - GETTING CURRENT DATE AND TIME";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CDD0DC1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CDD0EF1C8BCC7A00FEB376 /* Build configuration list for PBXNativeTarget "PROJECT 6 - GETTING CURRENT DATE AND TIME" */;
+			buildPhases = (
+				16CDD0D91C8BCC7A00FEB376 /* Sources */,
+				16CDD0DA1C8BCC7A00FEB376 /* Frameworks */,
+				16CDD0DB1C8BCC7A00FEB376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PROJECT 6 - GETTING CURRENT DATE AND TIME";
+			productName = "PROJECT 6 - GETTING CURRENT DATE AND TIME";
+			productReference = 16CDD0DD1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CDD0D51C8BCC7A00FEB376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = heshaoyi;
+				TargetAttributes = {
+					16CDD0DC1C8BCC7A00FEB376 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 16CDD0D81C8BCC7A00FEB376 /* Build configuration list for PBXProject "PROJECT 6 - GETTING CURRENT DATE AND TIME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CDD0D41C8BCC7A00FEB376;
+			productRefGroup = 16CDD0DE1C8BCC7A00FEB376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CDD0DC1C8BCC7A00FEB376 /* PROJECT 6 - GETTING CURRENT DATE AND TIME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CDD0DB1C8BCC7A00FEB376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDD0EB1C8BCC7A00FEB376 /* LaunchScreen.storyboard in Resources */,
+				16CDD0E81C8BCC7A00FEB376 /* Assets.xcassets in Resources */,
+				16CDD0E61C8BCC7A00FEB376 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CDD0D91C8BCC7A00FEB376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CDD0E31C8BCC7A00FEB376 /* ViewController.swift in Sources */,
+				16CDD0E11C8BCC7A00FEB376 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16CDD0E41C8BCC7A00FEB376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CDD0E51C8BCC7A00FEB376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16CDD0E91C8BCC7A00FEB376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CDD0EA1C8BCC7A00FEB376 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CDD0ED1C8BCC7A00FEB376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16CDD0EE1C8BCC7A00FEB376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16CDD0F01C8BCC7A00FEB376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PROJECT 6 - GETTING CURRENT DATE AND TIME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heshaoyi.PROJECT-6---GETTING-CURRENT-DATE-AND-TIME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16CDD0F11C8BCC7A00FEB376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PROJECT 6 - GETTING CURRENT DATE AND TIME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heshaoyi.PROJECT-6---GETTING-CURRENT-DATE-AND-TIME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CDD0D81C8BCC7A00FEB376 /* Build configuration list for PBXProject "PROJECT 6 - GETTING CURRENT DATE AND TIME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDD0ED1C8BCC7A00FEB376 /* Debug */,
+				16CDD0EE1C8BCC7A00FEB376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CDD0EF1C8BCC7A00FEB376 /* Build configuration list for PBXNativeTarget "PROJECT 6 - GETTING CURRENT DATE AND TIME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CDD0F01C8BCC7A00FEB376 /* Debug */,
+				16CDD0F11C8BCC7A00FEB376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16CDD0D51C8BCC7A00FEB376 /* Project object */;
+}
