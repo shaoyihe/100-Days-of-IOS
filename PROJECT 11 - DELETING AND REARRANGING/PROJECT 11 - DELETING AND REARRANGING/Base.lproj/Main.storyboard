@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2Us-vr-Xqf">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zfN-Pk-04u">
+            <objects>
+                <tableViewController id="2Us-vr-Xqf" customClass="ViewController" customModule="PROJECT_11___DELETING_AND_REARRANGING" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QKg-F1-syx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="zHB-uC-am5">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groceries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gph-dN-ZAK">
+                                    <rect key="frame" x="244" y="6" width="112.5" height="32.5"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o21-RK-v8C">
+                                    <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                    <state key="normal" title="Edit"/>
+                                    <connections>
+                                        <action selector="removeItem:" destination="2Us-vr-Xqf" eventType="touchUpInside" id="hnD-Fe-FO6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f27-Cp-Nqh">
+                                    <rect key="frame" x="554" y="7" width="30" height="30"/>
+                                    <state key="normal" title="Add"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="o21-RK-v8C" firstAttribute="leading" secondItem="zHB-uC-am5" secondAttribute="leadingMargin" constant="8" id="0qi-NC-kGp"/>
+                                <constraint firstItem="gph-dN-ZAK" firstAttribute="centerY" secondItem="zHB-uC-am5" secondAttribute="centerY" id="BbH-qD-bfF"/>
+                                <constraint firstAttribute="trailingMargin" secondItem="f27-Cp-Nqh" secondAttribute="trailing" constant="8" id="Jrh-ja-fNb"/>
+                                <constraint firstItem="o21-RK-v8C" firstAttribute="centerY" secondItem="zHB-uC-am5" secondAttribute="centerY" id="VP8-2h-lt2"/>
+                                <constraint firstItem="f27-Cp-Nqh" firstAttribute="centerY" secondItem="zHB-uC-am5" secondAttribute="centerY" id="Xaa-T4-LJP"/>
+                                <constraint firstItem="gph-dN-ZAK" firstAttribute="centerX" secondItem="zHB-uC-am5" secondAttribute="centerX" id="fvK-Uc-aWF"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="nxs-WW-TQh">
+                                <rect key="frame" x="0.0" y="72" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nxs-WW-TQh" id="8tn-dA-mvA">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2Us-vr-Xqf" id="TkO-hD-LoW"/>
+                            <outlet property="delegate" destination="2Us-vr-Xqf" id="sIE-lm-khb"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOX-Wg-0z4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107" y="326"/>
+        </scene>
+    </scenes>
+</document>
