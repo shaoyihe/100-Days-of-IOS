@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NwP-0r-1BI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="FIw-tz-atD">
+            <objects>
+                <viewController id="esV-HS-iJS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="auy-Oa-8QS"/>
+                        <viewControllerLayoutGuide type="bottom" id="moE-66-8yH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nL3-8w-yzP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rp-se-cZ3">
+                                <rect key="frame" x="284" y="285" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dR2-FU-uoA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Rp-se-cZ3" firstAttribute="centerY" secondItem="nL3-8w-yzP" secondAttribute="centerY" id="E4x-rK-Yor"/>
+                            <constraint firstItem="8Rp-se-cZ3" firstAttribute="centerX" secondItem="nL3-8w-yzP" secondAttribute="centerX" id="KmZ-UI-Hdt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="First" id="7YG-qB-cXi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b9m-WO-SAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="-107"/>
+        </scene>
+        <!--test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_8___SWIPE_TO_DISMISS_KEYBOARD" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nNm-AX-HtL">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yfm-Qb-r4o" appends="YES" id="bbw-0L-CrL"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="nNm-AX-HtL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HmE-1y-7bw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nNm-AX-HtL" secondAttribute="bottom" id="Mkw-qq-1Yg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nNm-AX-HtL" secondAttribute="trailing" id="fPs-MC-Gyz"/>
+                            <constraint firstItem="nNm-AX-HtL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="weN-iX-5Ue"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="yfm-Qb-r4o" appends="YES" id="5AW-su-boR"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="test" id="DVp-Qt-gxe">
+                        <barButtonItem key="backBarButtonItem" title="teste" id="4az-iS-Dli"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="c7j-XU-eMj"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="nNm-AX-HtL" id="fMl-FH-fou"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="yfm-Qb-r4o">
+                    <connections>
+                        <action selector="dismissKeyBoard" destination="BYZ-38-t0r" id="QGz-lx-cyK"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1055" y="702"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZfM-LK-aex">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NwP-0r-1BI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ghs-0h-l9W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="esV-HS-iJS" kind="relationship" relationship="rootViewController" id="Uv8-ed-sD8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yjn-n2-yrD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="948"/>
+        </scene>
+    </scenes>
+</document>
