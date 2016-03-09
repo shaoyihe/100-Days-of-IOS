@@ -2,12 +2,20 @@
 
 inspired by [100 Days of Swift](http://samvlu.com/)
 
+###### PROJECT 13 - STICKY SECTION HEADERS   
+2016.03.09  
+![STICKY SECTION HEADERS](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/13%20-%20STICKY%20SECTION%20HEADERS/STICKY%20SECTION%20HEADERS.gif?raw=true)
+
+###### PROJECT 12 - ADD NEW ITEM   
+2016.03.09   
+![ADD NEW ITEM](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/12%20-%20ADD%20NEW%20ITEM/ADD%20NEW%20ITEM.gif?raw=true)
+
 ###### PROJECT 11 - DELETING AND REARRANGING   
-2016.03.06   
+2016.03.07   
 ![DELETING AND REARRANGING](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/11%20-%20DELETING%20AND%20REARRANGING/DELETING%20AND%20REARRANGING.gif)
 
 ###### PROJECT 10 - PULL TO REFRESH TABLE VIEW   
-2016.03.06   
+2016.03.07   
 ![PULL TO REFRESH TABLE VIEW](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/10%20-%20PULL%20TO%20REFRESH%20TABLE%20VIEW/PULL%20TO%20REFRESH%20TABLE%20VIEW.gif)
 
 
