@@ -2,6 +2,14 @@
 
 inspired by [100 Days of Swift](http://samvlu.com/)
 
+###### PROJECT 23 - CHANGE DATE AND TIME   
+2016.03.27  
+![CHANGE DATE AND TIME](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/13%20-%20STICKY%20SECTION%20HEADERS/STICKY%20SECTION%20HEADERS.gif?raw=true)
+
+###### PROJECT 22 - SETTING THE DATE   
+2016.03.27  
+![SETTING THE DATE](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/13%20-%20STICKY%20SECTION%20HEADERS/STICKY%20SECTION%20HEADERS.gif?raw=true)
+
 ###### PROJECT 13 - STICKY SECTION HEADERS   
 2016.03.09  
 ![STICKY SECTION HEADERS](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/13%20-%20STICKY%20SECTION%20HEADERS/STICKY%20SECTION%20HEADERS.gif?raw=true)
