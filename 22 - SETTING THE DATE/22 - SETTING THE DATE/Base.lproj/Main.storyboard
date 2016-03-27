@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_2___SETTING_THE_DATE" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9O-eq-TqT">
+                                <rect key="frame" x="281" y="30" width="38.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu9-67-5vz">
+                                <rect key="frame" x="0.0" y="63" width="600" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="CbI-Gj-M2M"/>
+                                </constraints>
+                            </view>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="emc-wp-uyn">
+                                <rect key="frame" x="140" y="192" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="480760169.43757802">
+                                    <!--2016-03-27 08:29:29 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-n3-Lww">
+                                <rect key="frame" x="270" y="428" width="60" height="30"/>
+                                <state key="normal" title="Set Date"/>
+                                <connections>
+                                    <action selector="setDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q65-yt-lcp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pzg-n3-Lww" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="38e-kD-MK5"/>
+                            <constraint firstItem="tu9-67-5vz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7EH-NX-sfu"/>
+                            <constraint firstItem="emc-wp-uyn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8KH-lL-OBE"/>
+                            <constraint firstItem="emc-wp-uyn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B7h-cx-NFr"/>
+                            <constraint firstItem="Pzg-n3-Lww" firstAttribute="top" secondItem="emc-wp-uyn" secondAttribute="bottom" constant="20" id="KdZ-CA-Oey"/>
+                            <constraint firstItem="tu9-67-5vz" firstAttribute="topMargin" secondItem="N9O-eq-TqT" secondAttribute="bottom" constant="20" id="VPd-EH-vS6"/>
+                            <constraint firstItem="N9O-eq-TqT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a81-OS-CFK"/>
+                            <constraint firstAttribute="trailing" secondItem="tu9-67-5vz" secondAttribute="trailing" id="epQ-Ge-vKS"/>
+                            <constraint firstItem="N9O-eq-TqT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="oJZ-nf-NKf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="emc-wp-uyn" id="zG8-MF-iza"/>
+                        <outlet property="titleLabel" destination="N9O-eq-TqT" id="H7i-zm-sRp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="349"/>
+        </scene>
+    </scenes>
+</document>
