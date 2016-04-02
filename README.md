@@ -15,7 +15,7 @@ inspired by [100 Days of Swift](http://samvlu.com/)
 ![SETTING THE DATE](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/22%20-%20SETTING%20THE%20DATE/SETTING%20THE%20DATE.gif)
 
 ###### PROJECT 14 - JUMPBAR   
-2016.04.02
+2016.04.02  
 ![JUMPBAR](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/14%20-%20JUMPBAR/14%20-%20JUMPBAR.gif?raw=true)
 
 ###### PROJECT 13 - STICKY SECTION HEADERS   
