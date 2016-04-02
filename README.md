@@ -2,6 +2,10 @@
 
 inspired by [100 Days of Swift](http://samvlu.com/)
 
+###### PROJECT 27 - SEARCH BAR IN TABLE VIEW   
+2016.04.02  
+![SEARCH BAR IN TABLE VIEW](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/27%20-%20SEARCH%20BAR%20IN%20TABLE%20VIEW/27%20-%20SEARCH%20BAR%20IN%20TABLE%20VIEW.gif?raw=true)
+
 ###### PROJECT 23 - CHANGE DATE AND TIME   
 2016.03.27  
 ![CHANGE DATE AND TIME](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/23%20-%20CHANGE%20DATE%20AND%20TIME/CHANGE%20DATE%20AND%20TIME.gif?raw=true)
@@ -9,6 +13,10 @@ inspired by [100 Days of Swift](http://samvlu.com/)
 ###### PROJECT 22 - SETTING THE DATE   
 2016.03.27  
 ![SETTING THE DATE](https://raw.githubusercontent.com/shaoyihe/100-Days-of-IOS/master/22%20-%20SETTING%20THE%20DATE/SETTING%20THE%20DATE.gif)
+
+###### PROJECT 14 - JUMPBAR   
+2016.04.02
+![JUMPBAR](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/14%20-%20JUMPBAR/14%20-%20JUMPBAR.gif?raw=true)
 
 ###### PROJECT 13 - STICKY SECTION HEADERS   
 2016.03.09  
