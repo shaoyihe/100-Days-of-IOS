@@ -7,7 +7,7 @@ inspired by [100 Days of Swift](http://samvlu.com/)
 ![SEARCH BAR IN TABLE VIEW](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/27%20-%20SEARCH%20BAR%20IN%20TABLE%20VIEW/27%20-%20SEARCH%20BAR%20IN%20TABLE%20VIEW.gif?raw=true)
 
 ###### PROJECT 24 - CUSTOM COLLECTION VIEW   
-2016.03.27  
+2016.04.04  
 ![CUSTOM COLLECTION VIEW](https://github.com/shaoyihe/100-Days-of-IOS/blob/master/24%20-%20CUSTOM%20COLLECTION%20VIEW/24%20-%20CUSTOM%20COLLECTION%20VIEW.gif?raw=true)
 
 ###### PROJECT 23 - CHANGE DATE AND TIME   
